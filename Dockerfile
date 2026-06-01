@@ -31,4 +31,4 @@ COPY . ./
 EXPOSE 8080
 
 # REEMPLAZO AQUÍ: Comando nativo de Streamlit adaptado al puerto de Cloud Run
-CMD ["streamlit", "run", "app.py", "--server.port", "8080", "--server.address", "0.0.0.0"]
+CMD streamlit run app.py --server.port 8080 --server.address 0.0.0.0
